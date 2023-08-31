@@ -27,22 +27,22 @@ const Sidebar = () => (
       </nav>
       <ul>
         <li>
-          <a target="_blank" rel="noreferrer" href="">
+          <a target="_blank" rel="noreferrer" href="/">
             <FontAwesomeIcon icon={faLinkedin} color="#ffffff" />
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href="">
+          <a target="_blank" rel="noreferrer" href="/">
             <FontAwesomeIcon icon={faAngellist} color="#ffffff" />
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href="">
+          <a target="_blank" rel="noreferrer" href="/">
             <FontAwesomeIcon icon={faGithub} color="#ffffff" />
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href="">
+          <a target="_blank" rel="noreferrer" href="/">
             <FontAwesomeIcon icon={faTwitter} color="#ffffff" />
           </a>
         </li>

@@ -1,4 +1,4 @@
-.stage-cube-cont{
+.stage-cube-cont {
   width: 47%;
   height: 100%;
   top: 0;
@@ -8,7 +8,8 @@
   right: 0;
   overflow: hidden;
 }
-.lang{
+
+.lang {
   display: inline-block;
   margin-right: 4%;
 }
@@ -16,18 +17,21 @@
 .CircularProgressbar-path {
   stroke: red;
 }
+
 .CircularProgressbar-trail {
   stroke: gray;
 }
+
 .CircularProgressbar-text {
   fill: yellow;
 }
+
 .CircularProgressbar-background {
   fill: green;
 }
 
 @media screen and (max-width: 786px) {
-  .stage-cube-cont{
-   display: none;
+  .stage-cube-cont {
+    display: none;
   }
 }

@@ -8,16 +8,19 @@
   right: 0;
   z-index: 3;
   min-height: 500px;
-  .logo{
+
+  .logo {
     display: block;
     padding: 8px 0;
-    img{
+
+    img {
       display: block;
       margin: 8px auto;
       width: 60px;
       height: auto;
     }
   }
+
   nav {
     display: block;
     text-align: center;
@@ -26,27 +29,33 @@
     top: 20%;
     margin-top: -120px;
     width: 100%;
+
     a {
       font-size: 3rem;
-      color: #ffffff;
+      color: #fff;
       display: block;
       line-height: 51px;
       height: 51px;
       position: relative;
       text-decoration: none;
+
       i {
         transition: all 0.3s ease-out;
       }
+
       &:hover {
-          color: #ffffff;
-          svg {
-            opacity: 0;
-          }
-        &:after {
+        color: #fff;
+
+        svg {
+          opacity: 0;
+        }
+
+        &::after {
           opacity: 1;
         }
       }
-      &:after {
+
+      &::after {
         content: '';
         font-size: 9px;
         letter-spacing: 2px;
@@ -55,38 +64,43 @@
         display: block;
         width: 100%;
         text-align: center;
-        #background: #ffffff;
+        background: #fff;
         opacity: 0;
         transition: all 0.3s ease-out;
       }
-      &:first-child{
+
+      &:first-child {
         &::after {
           content: 'CALL';
         }
       }
     }
-    a.about{
+
+    a.about {
       &::after {
         content: 'EMAIL';
       }
     }
-    a.gallery{
+
+    a.gallery {
       &::after {
         content: 'INTERNET';
       }
     }
-    a.contact{
+
+    a.contact {
       &::after {
         content: 'INSTAGRAM';
       }
     }
 
-    a.active{
-      svg{
-        color: #ffffff;
+    a.active {
+      svg {
+        color: #fff;
       }
     }
   }
+
   ul {
     position: absolute;
     bottom: 20px;
@@ -96,20 +110,22 @@
     list-style: none;
     text-align: center;
     margin: 0;
-    li{
-      a{
+
+    li {
+      a {
         padding: 7px 0;
         display: block;
         font-size: 2rem;
         line-height: 16px;
-        &:hover svg{
+
+        &:hover svg {
           color: #225a71;
         }
       }
     }
   }
-
 }
+
 .nav-bar-left {
   background: #9e1b1d;
   width: 3%;
@@ -118,7 +134,6 @@
   top: 0;
   z-index: 3;
   min-height: 500px;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -130,9 +145,11 @@
     left: 0;
     z-index: 3;
     min-height: 0;
-    .logo{
+
+    .logo {
       display: none;
     }
+
     nav {
       display: flex;
       position: relative;
@@ -142,11 +159,13 @@
       padding-top: 3%;
       width: 100%;
       justify-content: space-around;
+
       a {
         font-size: 2rem;
         line-height: 40px;
         height: 40px;
-        &:after {
+
+        &::after {
           content: '';
           font-size: 9px;
           letter-spacing: 2px;
@@ -155,12 +174,13 @@
           display: block;
           width: 100%;
           text-align: center;
-          #background: #acd0e0;
+          background: #acd0e0;
           opacity: 0;
           transition: all 0.3s ease-out;
         }
       }
     }
+
     ul {
       height: auto;
       background: white;
@@ -172,11 +192,12 @@
       text-align: center;
       margin: 0;
 
-      li{
+      li {
         margin: 2px;
         display: table-cell;
         text-align: left;
-        a{
+
+        a {
           padding: 7px 0;
           display: block;
           font-size: 2rem;
